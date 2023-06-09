@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightseagreen;
+  color: black;
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0, 1);
+  max-width: 100%;
+  width: 800px;
+  text-align: center;
+}
+
+h3 {
+  opacity: 0.5;
+  font-size: 29px;
+}
+
+.jokes {
+  font-size: 24px;
+  margin: 55px auto;
+  letter-spacing: 2px;
+  max-width: 600px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: darkorchid;
+  color: white;
+  font-size: 18px;
+  padding: 14px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0, 1);
+}
